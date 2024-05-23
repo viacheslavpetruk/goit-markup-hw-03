@@ -14,6 +14,9 @@ ol {
     padding: 0;
     margin: 0;
 }
+img {
+    display: block;
+}
 
 .container {
     width: 1158px;
