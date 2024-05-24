@@ -96,16 +96,17 @@ img {
     color: #404bbf;
 }
 /* ----------section one------- */
-.main {
+.hero {
     padding: 188px 0;
-    margin: auto;
+    /* margin: auto; */
     background-color: #2E2F42;
 }
-.main-section {   
+.hero-section {   
+    
 }
 
-.main-title {
-    display: block;
+.hero-title {
+    /* display: block; */
     max-width: 496px;
     margin: 0 auto;
     padding-bottom: 48px;
@@ -117,7 +118,7 @@ img {
     text-align: center;
     text-transform: capitalize;
 }
-.main-btn {
+.hero-btn {
     background-color: #4D5AE5;
     color: #fff;
     border: none;
@@ -134,8 +135,8 @@ img {
     min-width: 169px;
     height: 56px;
 }
-.main-btn:hover,
-.main-btn:focus {
+.hero-btn:hover,
+.hero-btn:focus {
     background-color: #404BBF;
 }
 /* -----------features------------ */
