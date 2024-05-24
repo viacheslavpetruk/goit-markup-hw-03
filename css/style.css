@@ -95,10 +95,11 @@ img {
 .address-link:focus {
     color: #404bbf;
 }
-/* ----------section one------- */
+/* ----------section one hero------- */
 .hero {
+    width: 1440px;
     padding: 188px 0;
-    /* margin: auto; */
+    margin: auto;
     background-color: #2E2F42;
 }
 
