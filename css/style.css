@@ -97,13 +97,13 @@ img {
 }
 /* ----------section one------- */
 .main {
-    width: 1440px;
+    padding: 188px 0;
     margin: auto;
     background-color: #2E2F42;
 }
-.main-section {
-    padding: 188px 0;    
+.main-section {   
 }
+
 .main-title {
     display: block;
     max-width: 496px;
