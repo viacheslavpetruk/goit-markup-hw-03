@@ -101,13 +101,11 @@ img {
     /* margin: auto; */
     background-color: #2E2F42;
 }
-.hero-section {   
+
+.hero-title {
     max-width: 496px;
     margin: 0 auto;
     padding-bottom: 48px;
-}
-
-.hero-title {
     color: #fff;
     font-size: 56px;
     font-weight: 700;
