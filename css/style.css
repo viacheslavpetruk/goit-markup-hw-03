@@ -212,6 +212,7 @@ img {
  }
 
  .team-item {
+    flex-basis: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
     background-color: #FFFFFF;
  }
@@ -219,7 +220,7 @@ img {
     padding: 32px 16px;
  }
  .team-subtitle {
-    margin: 0;
+    margin-bottom: 8px;
     color: #2e2f42;
     background-color: #FFF;
     font-weight: 500;
@@ -244,10 +245,11 @@ img {
  .portfolio {
     text-transform: capitalize;
     background-color: #FFF;
- }
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
  .portfolio-container {
     max-width: 1158px;
-    padding-bottom: 120px;
     margin: 0 auto;
  }
  .portfolio-list {
@@ -256,9 +258,7 @@ img {
     gap: 48px 24px;
  }
  .portfolio-title {
-    padding-top: 120px;
-    padding-bottom: 72px;
-    margin: 0 auto;
+    margin-bottom: 72px;
     color: #2e2f42;
     font-size: 36px;
     line-height: 1.11;
@@ -272,14 +272,13 @@ img {
 }
 
 .border {
+    padding: 32px 16px;
     border: 1px solid #E7E9FC;
+    border-top: none;
 }
 
  .portfolio-subtitile {
-    padding-top: 32px;
     padding-bottom: 8px;
-    padding-left: 16px;
-    margin: 0;
     color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
@@ -297,16 +296,18 @@ img {
 /* --------------footer-------------- */
 .footer {
     width: 1440px;
+    padding: 100px 0;
     margin: 0 auto;
     background-color: #2E2F42;
 }
 .footer-container {
     width: 1158px;
-    padding: 100px 0;
     padding-left: 15px;
     margin: 0 auto;
 }
 .footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
     color: #4D5AE5;
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -321,7 +322,6 @@ img {
 
 .footer-text {
     max-width: 264px;
-    padding-top: 16px;
     margin: 0;
     color: #F4F4FD;
     font-size: 16px;
