@@ -191,7 +191,7 @@ img {
 /* -----------team---------------- */
  .team-section {
     max-width: 1440px;
-    padding: 120px 156px;
+    padding: 120px 0;
     margin: 0 auto;
     background-color: #F4F4FD;
  }
@@ -217,7 +217,7 @@ img {
     background-color: #FFFFFF;
  }
  .team-container {
-    padding: 32px 16px;
+    padding: 32px 0;
  }
  .team-subtitle {
     margin-bottom: 8px;
